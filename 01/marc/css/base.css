@@ -1,17 +1,15 @@
-/* 
-Inspiration from Chris Coyier
-https://codepen.io/chriscoyier/pen/vWEMWw */
-
 .wrapper {
+  width: 100%;
   display: flex;
-  flex-flow: row wrap;
-  text-align: center;
-  background-color: #ddd;
-  color: #111;
-  font-family: droid-sans-mono, sans-serif;
+  flex-wrap: wrap;
 }
 
-.wrapper > * {
-  padding: 10px;
-  flex: 1 100%;
+.box {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px 10px;
+  text-align: center;
+  vertical-align: center;
+  color: #111;
+  font-family: droid-sans-mono, sans-serif;
 }
