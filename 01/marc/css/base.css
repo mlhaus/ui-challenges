@@ -1,0 +1,17 @@
+/* 
+Inspiration from Chris Coyier
+https://codepen.io/chriscoyier/pen/vWEMWw */
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  background-color: #ddd;
+  color: #111;
+  font-family: droid-sans-mono, sans-serif;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
